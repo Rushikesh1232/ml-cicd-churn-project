@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Churn Prediction</title>
+</head>
+
+<body>
+
+<h2>Customer Churn Prediction</h2>
+
+<form action="/predict_form" method="post">
+
+<label>Senior Citizen</label>
+<input type="number" name="SeniorCitizen"><br><br>
+
+<label>Tenure</label>
+<input type="number" name="tenure"><br><br>
+
+<label>Monthly Charges</label>
+<input type="number" step="0.01" name="MonthlyCharges"><br><br>
+
+<label>Total Charges</label>
+<input type="number" step="0.01" name="TotalCharges"><br><br>
+
+<button type="submit">Predict</button>
+
+</form>
+
+</body>
+</html>
